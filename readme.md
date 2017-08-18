@@ -6,7 +6,7 @@ Para utilizar la librería se deben efectuar los siguientes pasos:
 
 /app/app.module.ts
 ```
-import {BasicAuthenticatorInterceptor} from "../lib/basic-authenticator/basic-authenticator.interceptor";
+import {BasicAuthenticatorInterceptor} from "@4r/basicAuthentication/basicAuthentication";
 import {HttpInterceptorModule} from "ng-http-interceptor";
 
 @NgModule({
