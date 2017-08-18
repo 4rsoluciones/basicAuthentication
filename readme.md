@@ -22,7 +22,8 @@ import {HttpInterceptorModule} from "ng-http-interceptor";
 - Crear una instancia de la clase en el constructor de la clase MyApp
 
 /app/app.component.ts
-```import {BasicAuthenticatorInterceptor} from "basic-authenticator";
+```
+import {BasicAuthenticatorInterceptor} from "basic-authenticator";
 export class MyApp {
     constructor(basicAuthenticatorInterceptor: BasicAuthenticatorInterceptor) {}
 }
@@ -32,7 +33,8 @@ export class MyApp {
 - Se debe configurar el componente pasando la configuración de la api y la autenticación al inicio de la aplicación. Aquí se definen una o más URLs de APIs disponibles y los tipos de autenticación en cada web service (los que no se detallan explícitamente, toman el valor defaultAuth). Por ejemplo:
 
 /app/app.component.ts
-```basicAuthenticatorInterceptor.setApiConfig({
+```
+basicAuthenticatorInterceptor.setApiConfig({
   'api': [
     {'url': 'http://example.com'}
   ],
