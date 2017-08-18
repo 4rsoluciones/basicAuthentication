@@ -1,0 +1,11 @@
+{
+	"name": "@4r/basicAuthentication",
+	"version": "0.0.1",
+	"author": "4r Soluciones S.R.L.",
+	"scripts": { },
+	"dependencies": {
+		"ng-http-interceptor": ""
+	},
+	"devDependencies": { },
+ 	"main": "basicAuthentication.ts"  
+ }
